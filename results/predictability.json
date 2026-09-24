@@ -1,0 +1,104 @@
+{
+  "n_apps": 24274,
+  "n_minutes": 20160,
+  "events": 90565687,
+  "k": 10,
+  "tolerance": {
+    "median-k|0": {
+      "event_hit_rate": 0.8610211061502796,
+      "invocation_hit_rate": 0.9886262752300021
+    },
+    "median-k|1": {
+      "event_hit_rate": 0.9448444199401922,
+      "invocation_hit_rate": 0.9934953894660666
+    },
+    "median-k|2": {
+      "event_hit_rate": 0.9638234401070683,
+      "invocation_hit_rate": 0.9954198758214307
+    },
+    "median-k|5": {
+      "event_hit_rate": 0.9836587669235038,
+      "invocation_hit_rate": 0.9977017346536553
+    },
+    "last-gap|0": {
+      "event_hit_rate": 0.8431244495500818,
+      "invocation_hit_rate": 0.9860793375762085
+    },
+    "last-gap|1": {
+      "event_hit_rate": 0.9316476559163075,
+      "invocation_hit_rate": 0.9909194064322727
+    },
+    "last-gap|2": {
+      "event_hit_rate": 0.9549924796573342,
+      "invocation_hit_rate": 0.9927126152224607
+    },
+    "last-gap|5": {
+      "event_hit_rate": 0.9785079751009894,
+      "invocation_hit_rate": 0.9955074456095557
+    }
+  },
+  "strata": {
+    "<=1 min": {
+      "apps": 4063,
+      "events": 61986248,
+      "hit_rate_1min": 0.9866547657473961
+    },
+    "2-9 min": {
+      "apps": 6104,
+      "events": 25184015,
+      "hit_rate_1min": 0.8833880935982606
+    },
+    "10-59 min": {
+      "apps": 3892,
+      "events": 2859793,
+      "hit_rate_1min": 0.6642617140471356
+    },
+    "1-24 h": {
+      "apps": 6704,
+      "events": 519198,
+      "hit_rate_1min": 0.48387127839475497
+    },
+    ">24 h": {
+      "apps": 1936,
+      "events": 16433,
+      "hit_rate_1min": 0.8106858151280959
+    }
+  },
+  "trigger": {
+    "http": {
+      "apps": 9578,
+      "events": 28484891,
+      "hit_rate_1min": 0.9081754604572648
+    },
+    "timer": {
+      "apps": 7332,
+      "events": 34575713,
+      "hit_rate_1min": 0.9842952479389218
+    },
+    "event": {
+      "apps": 1206,
+      "events": 8825984,
+      "hit_rate_1min": 0.9533971509578989
+    },
+    "queue": {
+      "apps": 3038,
+      "events": 12803718,
+      "hit_rate_1min": 0.9152425100271655
+    },
+    "storage": {
+      "apps": 520,
+      "events": 1543205,
+      "hit_rate_1min": 0.8985313033589186
+    },
+    "orchestration": {
+      "apps": 296,
+      "events": 1138853,
+      "hit_rate_1min": 0.9365335122267755
+    },
+    "others": {
+      "apps": 729,
+      "events": 3193323,
+      "hit_rate_1min": 0.9651789061112829
+    }
+  }
+}
